@@ -6,8 +6,8 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 40px;
+    align-items: center;
+    padding-top: 50px;
 
     // &::after{
     //     position: absolute;
@@ -21,6 +21,7 @@
     //     z-index: -1;
     //     opacity: .35;
     // }
+
     .mob_shape {
         position: absolute;
         top: 40px;
@@ -246,8 +247,6 @@
 
 
 //  Celebration Style
-
-
 #celebration-style , .celebration_style {
     display: flex;
     justify-content: center;
