@@ -244,6 +244,10 @@
         padding: 20px 120px 20px 120px;
         position: relative;
         z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         &::after{
         position: absolute;
         content: '';
@@ -498,6 +502,11 @@
         padding: 20px 20px 20px 20px;
         position: relative;
         z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
         &::after{
             position: absolute;
             content: '';
@@ -514,9 +523,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-bottom: 15px;
+            margin-bottom: 10px;
             img{
-                max-height: 70px;
+                max-height: 75px;
                 width: auto;
                 object-fit: contain;
             }
@@ -532,13 +541,12 @@
             }
         }
         .start_btn{
-            height: 50px;
-            width: 45%;
             background-color: $primaryColor;
             color: $whiteColor;
             font-weight: 600;
             font-size: 18px;
-            border-radius:12px;
+            border-radius:10px;
+            padding: 8px 30px;
             margin: 0 10px;
             font-family: 'Inter', sans-serif;
             display: flex;
@@ -557,7 +565,8 @@
             margin: 0 auto;
             width: 70%;
             padding: 0 5px;
-            .user_profile{
+            margin: 10px 0;
+            .user_profile_icon{
                 width: 20%;
                 i{
                     font-size: 14px;
@@ -604,7 +613,7 @@
         .competiton_quiz_pallate{
             height: 220px;
             width: 70%;
-            margin: 25px auto 15px;
+            margin: 5px auto 15px;
             background-color: rgba(198, 212, 232, 0.786);
             border: 1px solid #c3c3c324;
             border-radius: 16px;
